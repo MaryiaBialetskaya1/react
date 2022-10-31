@@ -1,5 +1,6 @@
 import './App.css';
 import DatingProfile from './DatingProfile';
+import { DeleteLikes } from './DeleteLikes';
 import Grocery from './Grocery';
 import Instagram from './Instagram';
 import { Likes } from './Likes';
@@ -26,6 +27,7 @@ function App() {
         <Grocery img="https://images.unsplash.com/photo-1601275868399-45bec4f4cd9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdyYXBlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" name="Grape" price="5.99$" description="Mexican Blue Grape"/>
       </div>
       <Likes />
+      <DeleteLikes />
     </div>
 
   );
