@@ -1,4 +1,5 @@
 import './App.css';
+import { ChangeName } from './ChangeName';
 import DatingProfile from './DatingProfile';
 import { DeleteLikes } from './DeleteLikes';
 import Grocery from './Grocery';
@@ -28,6 +29,7 @@ function App() {
       </div>
       <Likes />
       <DeleteLikes />
+      <ChangeName />
     </div>
 
   );
