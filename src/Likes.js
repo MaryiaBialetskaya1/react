@@ -8,4 +8,15 @@ export class Likes extends Component{
             likes: 0
         }
     }
+    updateLikes() {
+        this.setState({likes: this.state.likes + 1})
+    }
+    render(){
+        return(
+            <div>
+                <h1>{this.state.likes} Likes</h1>
+                <button onClick={() => this.updateLikes()}>LIKE</button>
+            </div>
+        )
+    }
 }
